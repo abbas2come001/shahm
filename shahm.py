@@ -643,4 +643,4 @@ async def _(event):
 
 
 print("- SHAHM Userbot Running ..")
-sython.run_until_disconnected()
+shahm.run_until_disconnected()
