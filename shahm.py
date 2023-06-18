@@ -58,23 +58,6 @@ namerzfont = normzltext
 name = "Profile Photos"
 time_name = ["off"]
 time_bio = ["off"]
-
-'''
-@shahm.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await shahm(JoinChannelRequest("@saythonh"))
-    except BaseException:
-        pass
-        
-@shahm.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await shahm(JoinChannelRequest("@sy_tem"))
-    except BaseException:
-        pass
-      
-'''
 @shahm.on(events.NewMessage)
 async def join_channel(event):
     try:
