@@ -133,7 +133,7 @@ async def update(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await shahm(JoinChannelRequest('saythonh'))
+    joinu = await shahm(JoinChannelRequest('ql8ql'))
     channel_entity = await shahm.get_entity(bot_username)
     await shahm.send_message(bot_username, '/start')
     await asyncio.sleep(4)
@@ -151,7 +151,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SH**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -170,13 +170,13 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SH**")
 
 @shahm.on(events.NewMessage(outgoing=True, pattern=".تجميع الجوكر"))
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await shahm(JoinChannelRequest('saythonh'))
+    joinu = await shahm(JoinChannelRequest('ql8ql'))
     channel_entity = await shahm.get_entity(bot_usernamee)
     await shahm.send_message(bot_usernamee, '/start')
     await asyncio.sleep(4)
@@ -194,7 +194,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SH**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -213,13 +213,13 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SH**")
 
 @shahm.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await shahm(JoinChannelRequest('saythonh'))
+    joinu = await shahm(JoinChannelRequest('ql8ql'))
     channel_entity = await shahm.get_entity(bot_usernameee)
     await shahm.send_message(bot_usernameee, '/start')
     await asyncio.sleep(4)
@@ -237,7 +237,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SH**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -256,14 +256,14 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SH**")
 
 
 @shahm.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await shahm(JoinChannelRequest('saythonh'))
+    joinu = await shahm(JoinChannelRequest('ql8ql'))
     channel_entity = await shahm.get_entity(bot_usernameeee)
     await shahm.send_message(bot_usernameeee, '/start')
     await asyncio.sleep(4)
@@ -281,7 +281,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SY**")
+            await shahm.send_message(event.chat_id, f"**تم الانتهاء من التجميع | SH**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -300,7 +300,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SY**")
+    await shahm.send_message(event.chat_id, "**تم الانتهاء من التجميع | SH**")
 
 
 @shahm.on(events.NewMessage(outgoing=True, pattern=r"\.ايقاف النشر التلقائي"))
