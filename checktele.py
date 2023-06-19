@@ -221,7 +221,7 @@ async def _(event):
         trys = 0
         await event.edit(f"حسناً سأفحص نوع `{choice}` من اليوزرات على `{ch}` , بعدد `{msg[0]}` من المحاولات !")
 
-        @shahm.on(events.NewMessage(outgoing=True, pattern=r"\.حالة الصيد"))
+        @shahm.on(events.NewMessage(outgoing=True, pattern=r"\.حالة الصيد", chh: choice))
         async def _(event):
             if ispay2[0] == "yes":
                 if "on" in isclaim:
